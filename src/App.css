@@ -1,0 +1,122 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* .try{ */
+  /* background-color: black; */
+  
+
+  /* background: url('https://i.pinimg.com/originals/3a/d1/99/3ad1994219dac9084a110deae2447fec.gif') no-repeat center center fixed; */
+  /* background-size: cover; */
+/* } */
+.clouds{
+  /* background-color: black; */
+  background: url('https://i.pinimg.com/originals/3a/d1/99/3ad1994219dac9084a110deae2447fec.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+.smoke{
+  /* background-color: black; */
+  background: url('https://i.gifer.com/GCuj.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+.clear{
+  /* background-color: black; */
+  background: url('https://thumbs.gfycat.com/ElegantThoroughEnglishsetter-max-1mb.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+.thunderstorm{
+  /* background-color: black; */
+  background: url('https://i.pinimg.com/originals/0f/7c/67/0f7c67f4e18b8b570cd29a8dd256f501.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+.rain{
+  /* background-color: black; */
+  background: url('https://38.media.tumblr.com/efd1ec0430e0105eb44498c285119a2e/tumblr_nkm0ccJIZi1rfp1lho1_1280.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+.smoke{
+  /* background-color: black; */
+  background: url('data:image/jpeg;base64,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') no-repeat center center fixed;
+  background-size: cover;
+}
+.snow{
+  /* background-color: black; */
+  background: url('https://i.gifer.com/origin/e6/e6971c4344ade5d0d249e82adce46882_w200.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+.haze{
+  /* background-color: black; */
+  background: url('https://thumbs.gfycat.com/HairyCraftyJay-max-1mb.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+input:focus{
+  outline: none;
+}
+.displaying{
+  display: block;
+}
+
+.card{
+  background-color: rgba(255,255,255,0.06);
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  font-family: 'Poppins',sans-serif;
+  color: #fcfcfc;
+}
+input{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h4{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 4px;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  margin: 25px 0 10px 0;
+}
+h6{
+  text-align: center;
+  color: #b3b3b3;
+  font-size: 15px;
+  letter-spacing: 5px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+.card img{
+  width: 22%;
+  margin-left: 39%;
+}
+h1{
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 300;
+}
+.container{
+  width: 70%;
+  margin-left: 15%;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 30px;
+}
+.details{
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.details span{
+  color: #b3b3b3;
+}
+.details:first-child{
+  border-right: 2px solid #fcfcfc;
+}
